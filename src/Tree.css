@@ -1,0 +1,17 @@
+.nodePaddingChunk {
+  min-width: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+.nodeContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.nodeContent.selected {
+  background-color: aqua;
+}
